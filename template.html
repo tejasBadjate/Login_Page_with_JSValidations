@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="output.html" name="myForm2" method="post" onsubmit="return validateForm()">
+        <div class="form">
+            <div class="title">Welcome</div>
+            <div class="subtitle">Let's create your account!</div>
+            
+            <div class="input-container ic2">
+            <input id="firstname" name="firstname" class="input" type="text" placeholder=" " required/>
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">First name</label>
+            </div>
+
+            <div class="input-container ic2">
+            <input id="lastname"  name="lastname" class="input" type="text" placeholder=" " required/>
+            <div class="cut"></div>
+            <label for="lastname" class="placeholder">Last name</label>
+            </div>
+
+            <div class="input-container ic2">
+            <input id="address"  name="address" class="input" type="text" placeholder=" " required/>
+            <div class="cut"></div>
+            <label for="address" class="placeholder">Address</label>
+            </div>
+
+            <div class="input-container ic2">
+            <input id="email" name="email" class="input" type="email" placeholder=" " required/>
+            <div class="cut cut-short"></div>
+            <label for="email" class="placeholder">Email</label>
+            </div>
+
+            <div class="input-container ic2">
+            <input id="mob" name="mob" class="input" type="text" placeholder=" " required />
+            <div class="cut"></div>
+            <label for="mob" class="placeholder">Mobile No.</label>
+            </div>
+
+            <div class="input-container ic2">
+            <select name="gender" class="input" placeholder=" " required>
+                <option value="select gender">Select Gender</option> 
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select> 
+            <div class="cut"></div>
+            <label for="gender" class="placeholder">Gender</label>
+            </div>
+
+            <div class="input-container ic2">
+            <input id="dob" name="dob" class="input" type="date" placeholder=" " onchange="calcAge()" required/>
+            <div class="cut"></div>
+            <label for="dob" class="placeholder">DOB</label>
+            </div>
+
+            <div class="input-container ic2">
+            <input id="age" name="age" class="input" type="text" placeholder=" " required/>
+            <div class="cut"></div>
+            <label for="age" class="placeholder">AGE</label>
+            </div>
+
+
+            <div class="input-container ic2">
+            <input id="zipcode" name="zipcode" class="input" type="text" placeholder=" " required/>
+            <div class="cut"></div>
+            <label for="zipcode" class="placeholder">Zipcode</label>
+            </div>
+
+            <div class="input-container ic2">
+            <input id="pass" name="pass" class="input" type="password" placeholder=" " required/>
+            <div class="cut"></div>
+            <label for="pass" class="placeholder">Password</label>
+            </div>
+
+            <div class="input-container ic2">
+            <input id="cpass" name="cpass" class="input" type="password" placeholder=" " required/>
+            <div class="cut"></div>
+            <label for="cpass" class="placeholder">Confirm Password</label>
+            </div>
+
+            <input type="submit" class="submit" value="Submit">
+            
+        </div>
+    </form>
+
+    <script src="demojs.js"></script>
+</body>
+</html>

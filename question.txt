@@ -1,0 +1,13 @@
+1. Please create a form with following fields and validate those using JavaScript(without jquery).
+
+    1. First Name - Textbox - required 
+    2. Last Name - Textbox - required 
+    3. Address - Textarea - required 
+    4. Email Address - Textbox - required, Email validation 
+    5. Password - Textbox - required , character should be between 6-12 characters 
+    6. Confirm Password - Textbox - required , Password and confirm password should be same 
+    7. Gender - Select Box(Select Gender/Male/ Female) - required 
+    8. Date of Birth - Select box of DD-MM-YYYY - required 
+    9. Age - textbox - it should be automatically calculated as soon as you select your date of birth (For example : if you select 27th July 2000), then age must automatically filled with 11 years 
+    10. Zipcode - textbox - required, should not content any character between a-z, A-Z, or any special character. 
+    11. Mobile No - textbox - required, only numerical
